@@ -16,7 +16,7 @@ export default function Tag1() {
         <meta property="og:description" content="설명 테스트입니다." />
         <meta property="og:image" content={image} />
       </Helmet>
-      <h1>Tag1</h1>
+      <h1>Tag2</h1>
       <div>{title}</div>
       <div>{image}</div>
     </div>
