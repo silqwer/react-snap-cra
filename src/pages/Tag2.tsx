@@ -10,11 +10,13 @@ export default function Tag1() {
   useEffect(() => {
     const image = searchParams.get("image") ?? "";
     setImageUrl(image);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams.get("image")]);
 
   useEffect(() => {
     const title = searchParams.get("title") ?? "";
     setTitle(title);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams.get("title")]);
 
   return (
