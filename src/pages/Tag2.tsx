@@ -19,6 +19,7 @@ export default function Tag1() {
       <h1>Tag2</h1>
       <div>{title}</div>
       <div>{image}</div>
+      <img src={image} alt="동적 이미지" />
     </div>
   );
 }
